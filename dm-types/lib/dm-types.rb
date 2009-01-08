@@ -16,6 +16,7 @@ module DataMapper
     autoload :Flag,       dir / 'flag'
     autoload :IPAddress,  dir / 'ip_address'
     autoload :Json,       dir / 'json'
+    autoload :RDFGraph,   dir / 'rdf_graph'
     autoload :Regexp,     dir / 'regexp'
     autoload :Serial,     dir / 'serial'
     autoload :Slug,       dir / 'slug'
