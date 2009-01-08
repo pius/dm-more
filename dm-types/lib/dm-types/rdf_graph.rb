@@ -12,7 +12,6 @@ module DataMapper
           nil
         elsif value.is_a?(String) && !value.empty?
           parsed_graph = Reddy::N3Parser.new(value).graph
-          #raise property.field.inspect
           def parsed_graph.with(n3)
             o = to_ntriples
             o = o + n3
